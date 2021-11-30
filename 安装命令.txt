@@ -1,0 +1,16 @@
+初始化数据库：
+
+mysqld --initialize --console
+
+输入以下安装命令：
+
+mysqld install
+
+启动输入以下命令即可：
+
+net start mysql
+
+
+mysql -u root -p
+
+alter user 'root'@'localhost'IDENTIFIED BY '123456';
